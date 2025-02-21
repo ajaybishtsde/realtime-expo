@@ -15,7 +15,7 @@ export default function App() {
         setTimeout(async () => {
           setIsReady(true);
           await SplashScreen.hideAsync();
-          router.navigate("/Register");
+          router.navigate("/Auth");
         }, 2000);
       } catch (error) {
         console.warn(error);

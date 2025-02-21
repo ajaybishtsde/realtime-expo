@@ -3,8 +3,8 @@ import React from "react";
 
 const Register = () => {
   return (
-    <View>
-      <Text>Register</Text>
+    <View className="flex-1 bg-red-300">
+      <Text className="text-green-700">Register</Text>
     </View>
   );
 };
